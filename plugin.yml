@@ -1,0 +1,28 @@
+name: TgoH
+main: TgoH\Main
+version: √2
+api:
+  - 2.0.0
+  - 3.0.0
+author: fuyutsuki
+website: https://twitter.com/y_fyi
+description: The gate of hell.
+
+commands:
+ hell:
+  description: Go to hell
+  usage: "/hell [name]"
+  permission: tgoh.command.hell
+
+permissions:
+ tgoh.*:
+  default: op
+  description: "permission that allows player to use tgoh"
+  children:
+   tgoh.command.*:
+    default: op
+    description: "permission that allows player to use tgoh"
+    children:
+      tgoh.command.hell:
+        default: op
+        description: "permission that allows player to use tgoh"
