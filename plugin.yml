@@ -1,9 +1,10 @@
 name: TgoH
 main: TgoH\Main
-version: √2
+version: _√3
 api:
   - 2.0.0
   - 3.0.0
+  - 3.0.0-ALPHA7
 author: fuyutsuki
 website: https://twitter.com/y_fyi
 description: The gate of hell.
